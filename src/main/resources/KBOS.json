@@ -1,0 +1,20 @@
+{
+  "icao" : "KBOS",
+  "patternHeight": 1020,
+  "patternLength": 2,
+  "runways" : [ {
+    "identifier" : "04L",
+    "bearing" : 36,
+    "touchdown" : {
+      "latitude" : 42.666,
+      "longitude" : -71.0166
+    }
+  } ],
+  "taxiways" : [ {
+    "identifier" : "K",
+    "points" : [ {
+      "latitude" : 42.666,
+      "longitude" : -71.0166
+    } ]
+  } ]
+}

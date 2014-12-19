@@ -1,0 +1,13 @@
+{
+  "callsign":"N26MJ",
+  "departs":"KBOS",
+  "arrives":"KJFK",
+  "route":"SSOXS3 SSOXS SEY PARCH1",
+  "remarks":"/v/ Go Sox",
+  "latitude":42.67703,
+  "longitude":-71.0033,
+  "altitude":6,
+  "cruise":22000,
+  "speed":0,
+  "heading":40
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="basePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erikpartridge.graphics.LoginMenuController">
+   <children>
+      <TextField fx:id="cidField" layoutX="120.0" layoutY="40.0" />
+      <PasswordField fx:id="passwordField" layoutX="120.0" layoutY="90.0" />
+      <Text layoutX="50.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CID:" />
+      <Text layoutX="36.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Button fx:id="submitButton" layoutX="300.0" layoutY="150.0" mnemonicParsing="false" onAction="#submitCredentials" text="Button" />
+   </children>
+</AnchorPane>

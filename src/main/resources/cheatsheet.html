@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+This file contains all of the commands for controling aircraft. All commands shall be issued over frequency via text.<br>
+<b>Commands with aircraft selected:</b><br>
+<table>
+	<tr><th>Command</th><th>Description</th></tr>
+	<tr><td>taxi PATH... [RUNWAY TO HS OF]</td><td>Taxies an aircraft via the given route</td></tr>
+	<tr><td>stop</td><td>Stops an aircraft in less than two seconds</td></tr>
+	<tr><td>start</td><td>Resumes an aircraft's movement</td></tr>
+	<tr><td>cross RUNWAY</td><td>Crosses specified runway</td></tr>
+	<tr><td>to [HEADING]</td><td>Cleared takeoff, given heading, otherwise will proceed direct first fix</td></tr>
+	<tr><td>cancel [HEADING]</td><td>Aircraft will cancel takeoff, or go around to assigned heading</td></tr>
+	<tr><td>luaw RUNWAY</td><td>Aircraft will line up and wait on the given runway</td></tr>
+	<tr></tr>
+	<tr><td>trs RUNWAY</td><td>Sets the runway transition for an aircraft on RNAV STAR specified in flight plan.</td>
+	<tr><td>loc RUNWAY [HEADING]</td><td>Turns the aircraft to given heading to intercept localizer for given runway, or flies present heading if not specified.</td></tr>
+	<tr><td>ils RUNWAY [HEADING]</td><td>Same principle as localizer, but ILS</td></tr>
+	<tr><td>visual RUNWAY [HEADING]</td><td>Turns towards [heading] or present and then tries visual. Must be within 15nm for visual approach.<td></tr>
+	<tr><td>halt</td><td>Will hold present altitude, cancels VNAV guidance</td></tr>
+	<tr><td>dct NAVAID [ALTITUDE]</td><td>Clears direct to a navaid, will cross at given altitude.</td></tr>
+	<tr><td>dctr NAVAID</td><td>Direct to a navaid, and then continues flight plan, must be on flight plan</td></tr>
+	<tr><td>alt ALTITUDE</td><td>Descends or climbs to given altitude</td></tr>
+	<tr><td>tl HEADING</td><td>Turns left to specified heading</td></tr>
+	<tr><td>tr HEADING</td><td>Turns right to specified heading</td></tr>
+	<tr><td>rapp NAVAID RUNWAY</td><td>Proceeds direct NAVAID, then starts RNAV approach</td></tr>
+	<tr><td>sqk CODE</td><td>Will squawk given code</td></tr>
+	<tr><td>sqc</td><td>Will squawk mode C</td></tr>
+	<tr><td>sqid</td><td>Will squawk ident</td></tr>
+	<tr><td>sqs</td><td>Will squawk standby</td></tr>
+</table>
+</body>
+</html>
